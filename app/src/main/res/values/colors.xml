@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A81BB0</color>
+    <color name="colorPrimaryDark">#6800B0</color>
+    <color name="colorAccent">#11AA11</color>
+    <color name="red">#C00000</color>
+    <color name="bourdeaux">#882200</color>
+    <color name="orange">#FF8800</color>
+    <color name="pink">#DD77CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundTint">#963a56f3</color>
+    <color name="turquoise">#008888</color>
+    <color name="turquoise_dark">#005555</color>
+    <color name="turquoise_light">#00CCCC</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="golden">#BBBB33</color>
+    <color name="black">#000000</color>
+    <color name="grey">#666666</color>
+    <color name="silver">#AAAAAA</color>
+    <color name="turquoise_A30">#55008888</color>
+    <color name="turquoise_A60">#AA008888</color>
+    <color name="A000">#00000000</color>
+    <color name="skyblue">#4cB5F5</color>
+    <color name="granite">#b7b9b6</color>
+    <color name="pine">#34675C</color>
+    <color name="field">#B3C100</color>
+    <color name="sunglow">#D9B44A</color>
+    <color name="slate">#626D71</color>
+    <color name="ceramic">#CDCDC0</color>
+    <color name="latte">#DDBC95</color>
+    <color name="coffee">#b38867</color>
+    <color name="tomato">#EB5E30</color>
+    <color name="cherry">#F70025</color>
+    <color name="peach">#FFCCAC</color>
+</resources>

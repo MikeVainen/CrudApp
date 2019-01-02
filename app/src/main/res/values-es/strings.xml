@@ -1,0 +1,72 @@
+<resources>
+    <string name="PREFS_NAME">com.mviana.crudapp</string>
+    <string name="app_name">CRUDApp</string>
+    <string name="name">Nombre</string>
+    <string name="bday">Fecha nac.</string>
+    <string name="id">Id</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="undo">Deshacer</string>
+    <string name="user">Usuario</string>
+    <string name="add">Añadir</string>
+    <string name="date_hint">AAAA-MM-DDTHH:MM</string>
+    <string name="update">Actualizar</string>
+    <string name="add_user">Añadir Usuario</string>
+    <string name="edit_user">Editar Usuario</string>
+    <string name="successful">Successful</string>
+    <string name="update_users">Actualizar Usuarios</string>
+    <string name="failed">Failed</string>
+    <string name="LAST_ACTION">LAST_ACTION</string>
+    <string name="action">action</string>
+    <string name="filter_hint">Filtrar usuarios</string>
+    <string name="deletion">Descarte</string>
+    <string name="edition">Edición</string>
+    <string name="request_500">Fallo en el Servidor</string>
+    <string name="request_400">Fallo interno</string>
+    <string name="request_300">Error de localización</string>
+    <string name="failed_request">Petición fallida</string>
+    <string name="selected">Seleccionado</string>
+    <string name="night_mode">Modo Noche</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="guide">Ahora,vamos a mostrarte cómo desenvolverte con la App. ¡Presiona donde quieras!</string>
+    <string name="actions_title">La Barra de Acciones</string>
+    <string name="actions_guide">En la barra de acciones encontrarás el botón de deshacer, el filtro de búsqueda y el interruptor de modo Noche de la App</string>
+    <string name="users_title">La Vista de Usuarios</string>
+    <string name="users_guide">Esta vista muestra todos los usuarios que cumplen el filtro asignado. Pulse sobre un usuario para poder editar su infomación</string>
+    <string name="thatsall_title">¡Eso es todo!</string>
+    <string name="thatsall_guide">Ahora eres libre de usarla a tu antojo</string>
+    <string name="adduser_guide">Pulse para añadir un nuevo usuario</string>
+    <string name="updateusers_guide">Pulse para actualizar la lista de usuarios</string>
+    <string-array name="sample_users">
+        <item>"Ana"</item>
+        <item>"Berto</item>
+        <item>"Carla</item>
+        <item>"Diego</item>
+        <item>"Elena"</item>
+        <item>"Fernando</item>
+        <item>"Gemma</item>
+        <item>"Hugo</item>
+    </string-array>
+    <integer-array name="sample_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>12</item>
+        <item>25</item>
+        <item>11</item>
+        <item>44</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="sample_bdays">
+        <item>"1991-06-20T10:10"</item>
+        <item>"1991-12-11T10:10"</item>
+        <item>"1987-05-30T10:10"</item>
+        <item>"1956-03-20T10:10"</item>
+        <item>"1920-10-01T10:10"</item>
+        <item>"1998-09-15T10:10"</item>
+        <item>"2000-07-09T10:10"</item>
+        <item>"1992-12-06T10:10"</item>
+    </string-array>
+</resources>

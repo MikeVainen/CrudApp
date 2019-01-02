@@ -1,0 +1,72 @@
+<resources>
+    <string name="PREFS_NAME">com.mviana.crudapp</string>
+    <string name="app_name">CRUDApp</string>
+    <string name="name">Name</string>
+    <string name="bday">Birthdate</string>
+    <string name="id">Id</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="undo">Undo</string>
+    <string name="user">User</string>
+    <string name="add">Add</string>
+    <string name="date_hint">YYYY-MM-DDTHH:MM</string>
+    <string name="update">Update</string>
+    <string name="add_user">Add New User</string>
+    <string name="edit_user">Edit User</string>
+    <string name="update_users">Update Users</string>
+    <string name="successful">Successful</string>
+    <string name="failed">Failed</string>
+    <string name="LAST_ACTION">LAST_ACTION</string>
+    <string name="action">action</string>
+    <string name="filter_hint">Filter users...</string>
+    <string name="deletion">Deletion</string>
+    <string name="edition">Edition</string>
+    <string name="request_500">Internal Server Error</string>
+    <string name="request_400">Client Error</string>
+    <string name="request_300">Undetermined URI</string>
+    <string name="failed_request">Failed Request</string>
+    <string name="selected">Selected</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="welcome">Welcome!</string>
+    <string name="guide">"Now, we'll show you how to work yourself around the App. Tap the screen!"</string>
+    <string name="actions_title">The Action Bar</string>
+    <string name="actions_guide">Along the action bar you will find the undo action button, the search filter and the night mode switch for the App</string>
+    <string name="users_title">The Users View</string>
+    <string name="users_guide">"The users view will show you all the Users registered that match the filter. Press any User to start editing its information.</string>
+    <string name="thatsall_title">"That's all!"</string>
+    <string name="thatsall_guide">You can feel free to play around now!</string>
+    <string name="adduser_guide">Press to start Adding a new User</string>
+    <string name="updateusers_guide">Press to Update the current User list!</string>
+    <string-array name="sample_users">
+        <item>"Ana"</item>
+        <item>"Berto</item>
+        <item>"Carla</item>
+        <item>"Diego</item>
+        <item>"Elena"</item>
+        <item>"Fernando</item>
+        <item>"Gemma</item>
+        <item>"Hugo</item>
+    </string-array>
+    <integer-array name="sample_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>12</item>
+        <item>25</item>
+        <item>11</item>
+        <item>44</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="sample_bdays">
+        <item>"1991-06-20T10:10"</item>
+        <item>"1991-12-11T10:10"</item>
+        <item>"1987-05-30T10:10"</item>
+        <item>"1956-03-20T10:10"</item>
+        <item>"1920-10-01T10:10"</item>
+        <item>"1998-09-15T10:10"</item>
+        <item>"2000-07-09T10:10"</item>
+        <item>"1992-12-06T10:10"</item>
+    </string-array>
+</resources>
