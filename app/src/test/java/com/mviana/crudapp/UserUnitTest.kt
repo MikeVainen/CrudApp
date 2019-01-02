@@ -1,27 +1,27 @@
 package com.mviana.crudapp
 
-import android.util.Log
 import org.junit.Test
 import com.mviana.crudapp.users.User
-import org.json.JSONObject
 import org.junit.Assert.assertEquals
-import org.junit.runner.RunWith
-import org.mockito.junit.MockitoJUnitRunner
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
-import java.util.*
 
 class UserUnitTest {
 
-    var USER_UNIT_TEST_TAG: String = "UserUnitTest"
+    val USER_UNIT_TEST_TAG: String = "UserUnitTest"
+    val USER_UNIT_TEST_JSON: String ="{\n" +
+            "  \"name\": \"Jessica Hyde\",\n" +
+            "  \"birthdate\": \"2018-01-02T00:21:25\",\n" +
+            "  \"id\": 24\n" +
+            "}"
+    val testname= "Jessica Hyde"
+    val testid: Int = 24
+    val testBirthDate = LocalDateTime.parse("2018-01-02T00:21:25")
 
     @Test
     fun testUserCreation(){
-        var testname= "Jessica Hyde"
-        var testid: Int = Math.random().toInt()
 
-        val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS")
         var testbirthdate = LocalDateTime.now()
 
         var testuser = User()
@@ -37,8 +37,13 @@ class UserUnitTest {
         assertEquals(testuser.birthDate,testbirthdate)
         //Log.println(Log.INFO,USER_UNIT_TEST_TAG,"User birthdate test passed")
 
-        //Test JSON
-
+        //Test JSON constructor
+        testuser = testuser.setWithJSON(USER_UNIT_TEST_JSON)
+        assertEquals(testuser.name,testname)
+        //Log.println(Log.INFO,USER_UNIT_TEST_TAG,"User name test passed")
+        assertEquals(testuser.id,testid)
+        //Log.println(Log.INFO,USER_UNIT_TEST_TAG,"User ID test passed")
+        assertEquals(testuser.birthDate,testbirthdate)
 
     }
 

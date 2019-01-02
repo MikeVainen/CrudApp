@@ -139,8 +139,8 @@ class UserDBHelper (context: Context, name: String?,
         if (cursor.moveToFirst()) {
             while (!cursor.isAfterLast) {
                 val cursorUser = User()
-                cursorUser.name = cursor.getString(cursor.getColumnIndex(USER_COLUMN_NAME))
                 cursorUser.id = cursor.getInt(cursor.getColumnIndex(USER_COLUMN_ID))
+                cursorUser.name = cursor.getString(cursor.getColumnIndex(USER_COLUMN_NAME))
                 cursorUser.birthDate = LocalDateTime.parse(cursor.getString(cursor.getColumnIndex(USER_COLUMN_BDAY)))
                 allUsers.add(cursorUser)
                 cursor.moveToNext()
