@@ -10,15 +10,15 @@ Users in the App hold on to the following info:
 Locally, user Id correponds to the primary key to store with in the local database.
 
 Among the App functionalities you will find:
-	- User List displayed as a Recycler View
-	- User Filtering by Query contained in the user's name
-	- Manage and store Users locally inside a SQLite Database
-	- Switching between Day and Night Mode
-	- Two Material App Themes: COFFEE and REDSAND
-	- Undo Functionality for user removal, add or update
-	- Register a new User in the remote Services
-	- Update any specific User
-	- Update all Users
-	- Edit already existing User
-	- Testing classes and functions
-	- ShowCase example for the App's usage and widget display & functionalities
+- User List displayed as a Recycler View
+- User Filtering by Query contained in the user's name
+- Manage and store Users locally inside a SQLite Database
+- Switching between Day and Night Mode
+- Two Material App Themes: COFFEE and REDSAND
+- Undo Functionality for user removal, add or update
+- Register a new User in the remote Services
+- Update any specific User
+- Update all Users
+- Edit already existing User
+- Testing classes and functions
+- ShowCase example for the App's usage and widget display & functionalities
