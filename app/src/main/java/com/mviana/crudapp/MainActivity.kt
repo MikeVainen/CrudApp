@@ -44,6 +44,7 @@ class MainActivity : FragmentActivity(), UserManager  {
     override val THEME_NIGHT = "night"
 
     val PREFS_SHOW_GUIDE = "showGuide"
+    val PREFS_DISMISS_GUIDE = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         val prefs = getSharedPreferences(resources.getString(R.string.PREFS_NAME), 0)
@@ -68,10 +69,10 @@ class MainActivity : FragmentActivity(), UserManager  {
     override fun onStart() {
         super.onStart()
         val prefs = getSharedPreferences(resources.getString(R.string.PREFS_NAME), 0)
-        if(prefs.getBoolean(PREFS_SHOW_GUIDE, true ))
+        if(prefs.getBoolean(PREFS_SHOW_GUIDE, true )){
             showCaseView(resources.getString(R.string.welcome),
                 resources.getString(R.string.guide), R.id.container, 1, -80f)
-
+        }
     }
 
     override fun onChangeAppTheme(code: Int){
@@ -224,7 +225,7 @@ class MainActivity : FragmentActivity(), UserManager  {
                                 resources.getString(R.string.thatsall_title),
                                 resources.getString(R.string.thatsall_guide), R.id.container, 6, -80f)
                             getSharedPreferences(resources.getString(R.string.PREFS_NAME), 0)
-                               .edit().putBoolean(PREFS_SHOW_GUIDE, false)
+                                .edit().putBoolean(PREFS_SHOW_GUIDE, PREFS_DISMISS_GUIDE).apply()
 
                         }
                     }
