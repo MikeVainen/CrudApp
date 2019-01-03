@@ -9,6 +9,8 @@ Users in the App hold on to the following info:
 	- Birthdate
 Locally, user Id correponds to the primary key to store with in the local database.
 
+Language support: English (EN), Spanish (SP).
+
 Among the App functionalities you will find:
 - User List displayed as a Recycler View
 - User Filtering by Query contained in the user's name
